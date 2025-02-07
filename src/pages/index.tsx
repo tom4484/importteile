@@ -65,7 +65,7 @@ export default function Home() {
             <Text>
               At Teileimport, we have over 30 years of experience importing and
               selling high-quality spare parts for Mercedes-Benz and BMW
-              vehicles. Located at Av. Jorge Newbery 3985, we offer a vast stock
+              vehicles. Located in Miami , FL, we offer a vast stock
               of parts to meet all your needs, including filters, suspension
               components, front and rear axle parts, automatic transmissions,
               and both exterior and interior bodywork. Our products ensure your
@@ -151,9 +151,9 @@ export default function Home() {
         {/* Contacto */}
         <Flex direction="column" justify="center" maxW="800px" gap="1em">
           <Heading>Contact us</Heading>
-          <Text>Address: Av. Jorge Newbery 3985, Buenos Aires, Argentina</Text>
-          <Text>Phone: +54 11 4567-8901</Text>
-          <Text>Email: tomasrios@gmail.com</Text>
+          <Text>Address: 14728 sw 55 terrace, Miami, Florida, USA</Text>
+          <Text>Phone: +393932467740</Text>
+          <Text>Email: importteile@gmail.com</Text>
         </Flex>
         <FloatingWhatsAppButton />
       </Flex>
