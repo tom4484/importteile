@@ -1,10 +1,12 @@
 {
   "name": "importteile",
+  "homepage": "https://tom4484.github.io/importteile",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },

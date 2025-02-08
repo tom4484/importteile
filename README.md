@@ -1,5 +1,33 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
+## Node Instalation on Windows
+
+```
+# Download and install fnm:
+winget install Schniz.fnm
+
+# Download and install Node.js:
+fnm install 20
+
+# Verify the Node.js version:
+node -v # Should print "v20.18.2".
+
+# Verify npm version:
+npm -v # Should print "10.8.2".
+```
+
+## Download git repo and run proyect
+
+```
+git clone git@github.com:tom4484/importteile.git
+
+cd importteile
+
+npm install
+
+npm run dev
+```
+
 ## Getting Started
 
 First, run the development server:
