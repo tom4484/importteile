@@ -36,7 +36,6 @@ jobs:
       - name: Build and export Next.js site
         run: |
           npm run build
-          npx next export
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
