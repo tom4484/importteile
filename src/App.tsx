@@ -7,32 +7,35 @@ import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { WeOffer } from "./components/we-offer";
 import { Footer } from "./components/footer";
+import { LightMode } from "./components/ui/color-mode";
 
 export function App() {
   return (
-    <Flex
-      direction="column"
-      justify="center"
-      w="full"
-      position="relative"
-      className="container"
-    >
-      {/* Header */}
-      <Header />
-      <Flex as="main" direction="column" mt="72px" position="relative">
-        {/* Hero */}
-        <Hero />
-        {/* About us */}
-        <AboutUs />
-        {/* We offer */}
-        <WeOffer />
-        {/* Contacto */}
-        <Contacto />
-        {/* Footer */}
-        <Footer />
-        {/* Boton flotante Whatsapp */}
-        <FloatingWhatsAppButton />
+    <LightMode>
+      <Flex
+        direction="column"
+        justify="center"
+        w="full"
+        position="relative"
+        className="container"
+        >
+        {/* Header */}
+        <Header />
+        <Flex as="main" direction="column" mt="72px" position="relative">
+          {/* Hero */}
+          <Hero />
+          {/* About us */}
+          <AboutUs />
+          {/* We offer */}
+          <WeOffer />
+          {/* Contacto */}
+          <Contacto />
+          {/* Footer */}
+          <Footer />
+          {/* Boton flotante Whatsapp */}
+          <FloatingWhatsAppButton />
+        </Flex>
       </Flex>
-    </Flex>
+    </LightMode>
   );
 }
