@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:github": "vite build --base=/importteile/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
