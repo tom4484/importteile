@@ -17,6 +17,7 @@ export const Hero = () => {
         top={{ base: "30%", md: "40%" }}
         position="absolute"
         zIndex="20"
+        color="white"
       >
         Import Teile
       </Heading>
