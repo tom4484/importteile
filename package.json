@@ -1,7 +1,5 @@
 {
   "name": "importteile",
-  "homepage": "https://tom4484.github.io/importteile",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "engines": {
