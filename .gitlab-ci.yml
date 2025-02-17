@@ -7,7 +7,7 @@ pages:
   script:
   script:
     - echo "The site will be deployed to $CI_PAGES_URL"
-    - npm run build # Construye el proyecto (genera la carpeta `dist`)
+    - npm run build:github  # Construye el proyecto (genera la carpeta `dist`)
     - mv dist public # Renombra `dist` a `public` para GitLab Pages
   artifacts:
     paths:
