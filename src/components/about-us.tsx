@@ -16,11 +16,11 @@ export const AboutUs = () => {
       </Heading>
       <Flex direction="column" gap="1em">
         <Heading as="h3" size="lg">
-          Teileimport: 10 Years of Experience in Mercedes-Benz & BMW Auto Parts
+          Teileimport: 20 Years of Experience in Mercedes-Benz, BMW and AUDI Maintenance
         </Heading>
         <Text>
-          At Teileimport, we have over 10 years of experience importing and
-          selling high-quality spare parts for Mercedes-Benz and BMW vehicles.
+          At Teileimport, we have over 20 years of experience servicing 
+          classic  Mercedes-Benz , BMW and AUDI vehicles.
           Located in Miami , FL, we offer a vast stock of parts to meet all your
           needs, including filters, suspension components, front and rear axle
           parts, automatic transmissions, and both exterior and interior
